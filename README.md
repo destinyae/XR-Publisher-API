@@ -125,7 +125,7 @@ New users can register through the `/register` endpoint which provides a web int
 - Generating initial API credentials
 - Requiring invite codes for controlled access
 
-Registation workflow:
+Registration workflow:
 1. User visits the registration page
 2. Provides username, email, GitHub username, and invite code
 3. System validates credentials and invite code
@@ -281,7 +281,7 @@ For users who need to recover access, the system provides a secure GitHub-based 
 The system implements caching for GET requests with:
 - CDN edge caching (1-hour TTL)
 - Version-based cache keys
-- Automatic invalidation on content updates
+- Automatic invalidation of content updates
 - Auth-based cache bypassing
 
 Cache is automatically invalidated when:
@@ -322,7 +322,7 @@ All endpoints return standardized error responses:
 4. Clear cache after content updates
 5. Regular key rotation
 6. Monitor rate limits
-7. Backup important worlds before updates
+7. Backup important words before updates
 
 ## Troubleshooting
 
